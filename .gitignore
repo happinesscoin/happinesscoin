@@ -1,0 +1,41 @@
+logo.png
+nohup.out
+src/*.exe
+src/happinesscoin
+src/happinesscoind
+src/test_happinesscoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.happinesscoin
+src/*coind
+
+*.qm
+Makefile
+happinesscoin-qt
+Quarkcoin-Qt.app
+
+# Unit-tests
+Makefile.test
+happinesscoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
+*.Debug
+*.Release
+*.pro.*
+*_plugin_import.*
+release
